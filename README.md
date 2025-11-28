@@ -25,6 +25,8 @@ AWS_REGION=
 S3_BUCKET_NAME=
 ```
 
+Link to the file: https://sharetext.io/daed4423
+
 ## Architecture Decision
 
 For file uploads, I chose direct-to-S3 uploads using `putObject` with presigned URLs.
